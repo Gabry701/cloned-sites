@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yelp</title>
+  </head>
+  <body>
+    <header>
+      <nav class="h-nav">
+        <div>
+          <img class="logo" src="../assets/logo.png" alt="logo" />
+        </div>
+        <div class="nav-bar">
+          <div class="search">
+            <input
+              type="text"
+              placeholder="Things to do, hair salons, plumbers"
+            />
+          </div>
+          <div class="location">
+            <input
+              type="text"
+              placeholder="Aliress, neighborhood, city, state or zip"
+              value="Roma"
+            />
+          </div>
+          <button title="goSearch" class="search-button">
+            <svg width="24" height="24" fill="white" class="icon_svg">
+              <path
+                d="m21.853 20.355-3.444-3.443a9.428 9.428 0 1 0-16.761-6.171 9.428 9.428 0 0 0 15.348 7.586l3.443 3.442a1 1 0 1 0 1.414-1.414ZM5.82 16.245a7.429 7.429 0 1 1 5.253 2.175 7.38 7.38 0 0 1-5.253-2.176Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="nav-right">
+          <div class="attivita">
+            <p>Yelp per attivitá</p>
+          </div>
+          <div class="recensione">
+            <p>Scrivi una recensione</p>
+          </div>
+          <div class="log-in">
+            <p>Accedi</p>
+          </div>
+          <div class="sign-up">
+            <p>Iscriviti</p>
+          </div>
+        </div>
+        <section class="suggestions">
+          <div class="ristoranti">Ristoranti</div>
+          <div class="casa">Servizi per la casa</div>
+          <div class="auto">Servizi per auto</div>
+          <div class="altro">Altro</div>
+        </section>
+      </nav>
+      <div class="align-text">
+        <h1>Entra in contatto con le migliori attività locali</h1>
+
+        <p class="image-caption">
+          <a href="#">Tufino Pizzeria Napoletana</a><br />
+          Foto di <a href="#">Bradley H.</a>
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="posts-container">
+        <article class="post">
+          <img class="profile-picture" src="https://s3-media0.fl.yelpcdn.com/photo/_7u3iLfb_HOHtuKf-tGgZw/ss.jpg" alt="profile image">
+          <h4 class="profile-name">Hannah F.</h4>
+          <p class="alied-photos">Ha aggiunto 6 foto</p>
+          <p class="place"><a href="#">Dante's</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="https://s3-media0.fl.yelpcdn.com/bphoto/5eCn1cLO0I1OBl-V6QfzOQ/300s.jpg" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="https://s3-media0.fl.yelpcdn.com/bphoto/eQcwGrAw-G9L_RKn6-4vdg/168s.jpg" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all 6 photos</a></p>
+        </article>
+        <article class="post">
+          <img class="profile-picture" src="https://s3-media0.fl.yelpcdn.com/photo/jjkbQnRflJTdswSnx5W0dA/ss.jpg" alt="profile image">
+          <h4 class="profile-name">John C.</h4>
+          <p class="alied-photos">Ha aggiunto 4 foto</p>
+          <p class="place"><a href="#">Casa Maria</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="https://s3-media0.fl.yelpcdn.com/bphoto/8EBdgum4LTozFedzBqW1_w/300s.jpg" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="https://s3-media0.fl.yelpcdn.com/bphoto/ArNDHXp8nc4-xoyTlidV4w/168s.jpg" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all 4 photos</a></p>
+        
+        </article>
+        <article class="post">          
+          <img class="profile-picture" src="https://s3-media0.fl.yelpcdn.com/photo/HHkjVl5y1qE1eWq4-fCHqg/ss.jpg" alt="profile image">
+          <h4 class="profile-name">Carrie M.</h4>
+          <p class="alied-photos">Ha aggiunto 7 foto</p>
+          <p class="place"><a href="#">Basilica di San Pietro</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="https://s3-media0.fl.yelpcdn.com/bphoto/YC2cTZbT0XyxkxTdH14x5w/300s.jpg" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="https://s3-media0.fl.yelpcdn.com/bphoto/_BTCYDT0Q9CNlQTbNryzjQ/168s.jpg" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all 7 photos</a></p>
+        </article>
+        <article class="post">          
+          <img class="profile-picture" src="https://s3-media0.fl.yelpcdn.com/photo/Cv9qk7DPMC5XIO7DjMAVLg/ss.jpg" alt="profile image">
+          <h4 class="profile-name">Grace-Mary O.</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p>
+        </article>
+        <article class="post">         
+           <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">          
+          <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">          <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">          
+          <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">          
+          <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">          
+          <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">         
+           <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+        <article class="post">          
+          <img class="profile-picture" src="" alt="profile image">
+          <h4 class="profile-name">name</h4>
+          <p class="alied-photos">Ha aggiunto foto</p>
+          <p class="place"><a href="#">posto</a></p>
+          <div class="images-container">
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+            <section class="single-image-container">
+              <img class="image" src="" alt="1">
+              <svg width="24" height="24" class="like-button"><path d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h4v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z"></path></svg>
+            </section>
+          </div>
+          <p class="show-all-photos"><a href="#">show all photos</a></p></article>
+      </section>
+      <button class="show-more-button">Mostra altre azioni</button>
+      <hr>
+      <section class="categories">
+        <h2 id="categories-title"> Categorie </h2>
+        <div class="categories-container">
+          <div class="category-card">
+            <img alt="ristorante" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/8bc05b287157/assets/img/svg_illustrations/40x40_food_v2.svg"/>
+            <h4 class="category-caption">Ristoranti</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Shopping" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/488aeb87ef6e/assets/img/svg_illustrations/40x40_gift_shops_v2.svg"/>
+            <h4 class="category-caption">Shopping</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Vita notturna" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/1397897c21a5/assets/img/svg_illustrations/40x40_new_v2.svg"/>
+            <h4 class="category-caption">Vita notturna</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Tempo libero, hobby e sport" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/0372f8e93aa9/assets/img/svg_illustrations/40x40_set_objective_v2.svg"/>
+            <h4 class="category-caption">Tempo libero, hobby e sport</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Bellezza e spa" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5bd5d2648742/assets/img/svg_illustrations/40x40_barbers_v2.svg"/>
+            <h4 class="category-caption">Bellezza e spa</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Automobili" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5967f38fe621/assets/img/svg_illustrations/40x40_auto_v2.svg"/>
+            <h4 class="category-caption">Automobili</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Servizi per la casa" src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/7fc312973cf8/assets/img/svg_illustrations/40x40_home_services_v2.svg"/>
+            <h4 class="category-caption">Servizi per la casa</h4>
+          </div>
+          <div class="category-card">
+            <img alt="Altro" src="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_more_v2.yji-961fdce2fd036f85fb01.svg"/>
+            <h4 class="category-caption">Altro</h4>
+          </div>
+      </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-items-container">
+        <section class="last-section">
+          <h4 id="informations-title">Informazioni</h4>
+          <ul aria-labelledby="informations-title">
+            <li><a href="#" class="informations-point">Informazioni su Yelp</a></li>
+            <li><a href="#" class="informations-point">Lavoro</a></li>
+            <li><a href="#" class="informations-point">Stampa</a></li>
+            <li><a href="#" class="informations-point">Per investitori</a></li>
+            <li><a href="#" class="informations-point">Trust & Safety</a></li>
+            <li><a href="#" class="informations-point">Linee guida per i contenuti</a></li>
+            <li><a href="#" class="informations-point">Termini di servizio</a></li>
+            <li><a href="#" class="informations-point">Informativa sulla privacy</a></li>
+            <li><a href="#" class="informations-point">Opzioni Annunci</a></li>
+            <li><a href="#" class="informations-point">Manage Cookies</a></li>
+          </ul>
+        </section>
+        <section class="last-section">
+          <h4 id="discover-title">Scopri</h4>
+          <ul aria-labelledby="discover-title">
+            <li><a href="#" class="discover-point">Raccolte</a></li>
+            <li><a href="#" class="discover-point">Forum</a></li>
+            <li><a href="#" class="discover-point">Eventi</a></li>
+            <li><a href="#" class="discover-point">Blog di Yelp</a></li>
+            <li><a href="#" class="discover-point">Assistenza</a></li>
+            <li><a href="#" class="discover-point">Yelp mobile</a></li>
+            <li><a href="#" class="discover-point">Sviluppatori</a></li>
+            <li><a href="#" class="discover-point">RSS</a></li>
+          </ul>
+        </section>
+        <section class="last-section">
+          <h4 id="business-title">Yelp for business</h4>
+          <ul aria-labelledby="business-title">
+            <li><a href="#" class="business-point">Yelp for Business</a></li>
+            <li><a href="#" class="business-point">Business Owner Login</a></li>
+            <li><a href="#" class="business-point">Gestisci la pagina della tua attività</a></li>
+            <li><a href="#" class="business-point">Fai pubblicità su Yelp</a></li>
+            <li><a href="#" class="business-point">Assistenza per attività</a></li>
+            <li><a href="#" class="business-point">Yelp Blog for Business</a></li>
+          </ul>
+        </section>
+        <section class="language-section">
+          <div class="language-selector"> 
+            <h4>Lingue</h4>
+            <div class="dropdown-menu">
+              <ul>
+                <li class="dropdown-item">Italian</li>
+                <li class="dropdown-item">English</li>
+                <li class="dropdown-item">French</li>
+                <li class="dropdown-item">German</li>
+                <li class="dropdown-item">Japanese</li>
+              </ul>
+            </div>
+            <button>Italian</button>
+          </div>
+          <div class="nation-selector">
+            <h4>Nazioni</h4>
+            <div class="dropdown-menu">
+              <ul>
+                <li class="dropdown-item">Italia</li>
+                <li class="dropdown-item">England</li>
+                <li class="dropdown-item">France</li>
+                <li class="dropdown-item">Germany</li>
+                <li class="dropdown-item">Japan</li>
+              </ul>
+            </div>
+            <button>Italia</button>
+          </div>
+        </section>
+      </div>
+      <p class="copyright">Copyright © 2004–2024 Yelp</p>
+      <p class="copy">This site is a copy of <a href="https://www.yelp.it/roma">yelp.it</a>, made for 
+        education purposes</p>
+      <p class="creator">Created by Gabriele Murgia on 03/03/2023</p>
+      <p class="creator-note">This website took a couple of days to finish,
+        I won't be adding the missing images, because it would take too
+        much time and I want to learn js and copy other styles of
+        websites first. This is the first website that I do 
+        with css so I'm proud of how it came out even if I 
+        think that the code is a bit messy and aproximative.
+        I look forward to improving and to add the missing 
+        features one day.</p>
+    </footer>
+  </body>
+</html>
